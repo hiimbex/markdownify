@@ -1,6 +1,6 @@
 # markdownify
 
-> A GitHub App built with [Probot](https://probot.github.io) that  git update-ref HEAD HEAD^
+> A GitHub App built with [Probot](https://probot.github.io) that adds links of edited markdown files to the bottom of pull requests
 
 ## Setup
 
