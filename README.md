@@ -2,6 +2,16 @@
 
 > A GitHub App built with [Probot](https://probot.github.io) that adds links of edited markdown files to the bottom of pull requests
 
+
+## How it works
+
+1. [Install the app](https://github.com/apps/markdownify).
+2. Open a PR and edit some makrdown files.
+3. Watch the bot edit your comment and append the URLs to the bottom 🎉
+
+<img width="871" alt="screen shot 2018-09-05 at 10 14 37 pm" src="https://user-images.githubusercontent.com/13410355/45131041-2d98e280-b159-11e8-92cc-3b80f4897b98.png">
+
+
 ## Setup
 
 ```sh
