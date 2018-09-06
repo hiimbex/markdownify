@@ -4,11 +4,11 @@
   "description": "A probot app that adds links of edited markdown files to pull requests",
   "main": "index.js",
   "scripts": {
-  "dev": "nodemon",
-  "start": "probot run ./index.js",
-  "lint": "standard --fix",
-  "test": "jest && standard",
-  "test:watch": "jest --watch --notify --notifyMode=change --coverage"
+    "dev": "nodemon",
+    "start": "probot run ./index.js",
+    "lint": "standard --fix",
+    "test": "jest && standard",
+    "test:watch": "jest --watch --notify --notifyMode=change --coverage"
   },
   "author": "Bex Warner",
   "license": "ISC",
@@ -22,6 +22,7 @@
   },
   "devDependencies": {
     "jest": "^22.4.3",
+    "nock": "^9.6.1",
     "nodemon": "^1.17.2",
     "smee-client": "^1.0.2",
     "standard": "^10.0.3"
